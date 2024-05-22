@@ -1,0 +1,34 @@
+<html>
+<body>
+    <h1>WWVER=3.13.0 - March 22, 2024 - staging </h1>
+    
+    <script src="https://staging-web-chat.nativechat.com/3.13.0/sdk/nativechat.js"></script>
+    <link href="https://staging-web-chat.nativechat.com/3.13.0/sdk/nativechat.css" rel="stylesheet" type="text/css">
+    <script>
+  var chatSettings = {
+    bot: {
+      id: "d5883b2ca9d04de29a0a017c"
+    },
+    channel: {
+      id: "75e6b08a-df0e-4681-904f-6a1c9f662479",
+      token: "fc312958-b59f-4836-afb9-1a8eb1cbdeb4"
+    },
+    googleApiKey: "your-google-maps-API-key",
+    session: {
+      clear: true
+    },
+    chatServerInstance: "staging-"
+  };
+
+  window.NativeChat.load({
+    id: "kcChatWindow",
+    origin: "",
+    display: {
+        mode: "modal"
+    },
+    chat: chatSettings
+  });
+</script>
+    
+</body>
+</html>
